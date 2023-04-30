@@ -19,6 +19,8 @@ class UserTableSeeder extends Seeder
             'password' => bcrypt('password')
         ]);
 
+
+        
         $admin->assignRole('admin');
     }
 }
